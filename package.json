@@ -1,0 +1,19 @@
+{
+  "name": "cli_info_reader",
+  "version": "0.0.1",
+  "description": "A piece of software that can read a folder structure for toml files with documentation on certain subjects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaskejaske1",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "yargs": "^17.6.2"
+  },
+  "dependencies": {
+    "@ltd/j-toml": "^1.36.0",
+    "inquirer": "^8.0.0"
+  }
+}
